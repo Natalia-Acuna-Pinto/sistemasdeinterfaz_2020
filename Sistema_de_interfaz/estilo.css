@@ -1,17 +1,56 @@
-body{
-    background-color: rgb(218, 187, 159);
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30 px;
+    color: rgb(0, 0, 0);
 }
 
-h1{
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font: size 28px;
+section{
+    background-color: rgb(255, 222, 173);
 }
 
 p{
     color: black;
+    font-size: 23 px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
 }
 
 
+nav{
+    background-color: rgb(255, 222, 196);
+    color: black;
+    text-align:left;
+}
+
+
+.clear{
+    clear: both;
+}
+
+
+article{
+    background-color: rgb(238, 173, 88);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 65%;
+    float: left;
+}
+
+
+aside{
+    background-color: rgb(255, 179, 65);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 35%;
+    float: right;
+    height: 100%;
+}
+
+
+footer{
+    background-color: rgb(255, 179, 64);
+    height: 200px;
+    text-align: center;
+    color: black;
+    font-family: monospace;
+}
